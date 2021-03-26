@@ -152,3 +152,15 @@ INNER JOIN dept_emp AS de
 ON (ce.emp_no = de.emp_no)
 INNER JOIN departments AS d
 ON (de.dept_no = d.dept_no);
+
+--Find employees in Sales whoa re about to retire
+SELECT *
+INTO sales_retiree
+FROM dept_info
+WHERE dept_name = 'Sales'
+
+--Find employees in sales and development who are about to retire
+SELECT *
+INTO sales_dev_retiree
+FROM dept_info
+WHERE dept_name IN ('Sales','Development')
