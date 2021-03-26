@@ -10,6 +10,7 @@ In this challenge, we will be using SQL and PostGres database to extract multipl
 
 ## Challenge Results
 ![alt text](/Retiring_Titles.png)
+
 As we can see from the screenshot above we have a total of 
 - 29414 Senior Engineers
 - 28254 Senior Staff
